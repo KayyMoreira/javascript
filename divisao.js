@@ -12,8 +12,8 @@ calcular.addEventListener("click", function clicar(e){
         document.getElementById("resposta").innerHTML = "Você deve inserir valores numéricos";
         return;
     } else {
-        let soma = numero1 + numero2;
-        document.getElementById("resposta").innerHTML = `A soma de ${numero1} e ${numero2} é ${soma}`;
+        let divisao = numero1 / numero2;
+        document.getElementById("resposta").innerHTML = `A divisão de ${numero1} e ${numero2} é ${divisao}`;
     }
 
 })
